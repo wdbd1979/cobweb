@@ -13,7 +13,7 @@ docker run -d --name cobweb --restart always -v $PWD/pb_data/:/app/pb_data/ -p 1
 # 密码和邮箱记得改成自己喜欢的
 docker exec -ti cobweb /app/cobweb superuser create admin@cobweb.www adminadmin
 ```
-
+部署命令：./cobweb superuser create wdbd1979@sina.cn hao2007518
 管理界面: http://127.0.0.1:10000/_/
 
 # 开发测试
